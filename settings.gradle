@@ -13,5 +13,4 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Mitoteca"
-include ':app'
+apply from: 'modules.gradle'
